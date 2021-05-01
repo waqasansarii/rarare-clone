@@ -1,0 +1,221 @@
+.Rant {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../../Assets/Group 3604.png");
+}
+
+.carousel-control-next-icon {
+  background-image: url("../../Assets/Group 3603.png");
+}
+
+.Rant_content_left {
+  flex: 0.4;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 30px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.Rant_title {
+  align-items: flex-end !important;
+  margin-left: 79px !important;
+  padding-top: 10px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.Rant_title > p {
+  margin-top: 0px;
+}
+
+.Rant_left_title {
+  color: rgb(144, 155, 209);
+  font-size: 18px;
+}
+
+.Rant_card {
+  padding: 20px;
+  width: 500px;
+  box-shadow: 0px 0px 5px gainsboro !important;
+}
+
+.Rant_card_div {
+  /* text-align: end; */
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.Rcard_content {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+
+.Rant_left_titleSpan {
+  font-size: 18px;
+  color: #45c1a1;
+}
+
+.Rant_content_right {
+  flex: 0.5;
+}
+
+#hr {
+  border: 1px solid rgba(226, 218, 218, 0.698);
+  display: flex;
+}
+
+.Rcard_contentLast_row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.Rcard_icon_space {
+  padding-left: 4px;
+}
+
+.Rant_component_card {
+  width: 500px;
+  padding: 20px 0;
+}
+
+.Rcard_content_component {
+  display: flex;
+  flex-direction: column;
+}
+
+.Rant_component_main {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+  width: 100%;
+}
+
+@media (max-width: 930px) {
+  .Rant {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .Rant_card_div {
+    justify-content: center;
+  }
+  .Rant_component_main {
+    justify-content: center;
+  }
+  .img-fluid {
+    width: 100% !important;
+  }
+  .carousel-inner {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .slider_down_images {
+    padding: 0;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 651px) {
+  .Rant_content_right {
+    flex: unset !important;
+
+    text-align: center !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Rant_card {
+    width: 100%;
+    font-size: 14px;
+    height: max-content !important;
+    padding-bottom: 10px;
+  }
+  .Rant_title {
+    margin-left: 0;
+  }
+  .Rtext_size_responsive {
+    font-size: 0.7rem !important;
+    margin: 0;
+  }
+  .Rtitle_responsive {
+    font-size: 18px;
+  }
+  .Rant_content_left {
+    padding: 30px 17px;
+  }
+  .Ricon_size_responsive {
+    font-size: 10px;
+    color: red;
+    width: 13px;
+  }
+  .Rant_component_main {
+    margin-bottom: 6rem;
+  }
+  .Ricon_size_responsiveuser {
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width: 506px) {
+  .Rant_component_main {
+    margin-bottom: 10rem;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .Rant_card {
+    font-size: 14px;
+    height: 370px;
+    padding: 10px 8px !important;
+  }
+  .Rant_title {
+    margin-left: 0;
+  }
+  .Rtext_size_responsive {
+    font-size: 11px !important;
+  }
+  .Rtitle_responsive {
+    font-size: 18px;
+  }
+  .Rant_component_main {
+    margin-bottom: 7rem;
+  }
+
+  .Ricon_size_responsive {
+    font-size: 0.6rem !important;
+    color: red;
+    width: 14px !important;
+  }
+  .Rtitle_responsive {
+    font-size: 0.7rem !important;
+  }
+
+  .Ricon_size_responsiveuser {
+    width: 20px;
+  }
+
+  .card_icon_space svg {
+    height: 2em;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .Rtext_size_responsive {
+    font-size: 0.7rem !important;
+  }
+}
+
+@media only screen and (max-width: 345px) {
+  .Rant_component_main {
+    margin-bottom: 9rem;
+  }
+}

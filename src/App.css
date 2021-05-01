@@ -1,0 +1,129 @@
+/* font */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none;
+}
+/* position */
+
+.position_relative {
+  position: relative;
+}
+
+/* background colors */
+
+.bg_lightgreen {
+  background-color: #20c0a0 !important;
+}
+
+.bg_blue {
+  background-color: #014c9d;
+}
+
+.bg_red {
+  background-color: #dc4b3b;
+}
+
+.bg_white {
+  background-color: white;
+}
+
+.light_purple {
+  background-color: #f5f6fa !important;
+}
+
+/* text colors */
+
+.text_darkblue {
+  color: #001758 !important;
+}
+
+.text_bluegreen {
+  color: #19c2a0 !important;
+}
+
+.text_lightblack {
+  color: #353535;
+}
+
+.text_green {
+  color: #0ac718;
+}
+
+.text_darkgray {
+  color: #5f677c;
+}
+
+.text_lightgray {
+  color: #8792af !important;
+}
+
+.text_lightpurple {
+  color: #9ba3cc !important;
+}
+
+.text_black {
+  color: black;
+}
+
+/* border color */
+
+.border_solid {
+  border: 1px solid !important;
+}
+
+.bluegreen_border {
+  border-color: #20c0a0 !important;
+}
+
+.green_border {
+  border-color: #0ac718 !important;
+}
+
+.gray_border {
+  border-color: #80808066 !important;
+}
+
+.light_purple_border {
+  color: #9ba3cc;
+}
+
+.border_none {
+  border: none !important;
+}
+
+/*  */
+
+.cus_num_field p {
+  color: #20c0a0 !important;
+}
+
+.cus_num_field {
+  width: 100% !important;
+}
+
+.num_form {
+  width: 100% !important;
+}
+
+/* width */
+
+.cus_width100 {
+  width: 150px;
+}
