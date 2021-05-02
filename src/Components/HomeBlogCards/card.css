@@ -17,7 +17,7 @@
     width: 300px  !important;
 }
 .do_card_para{
-    color: #8792AF !important;
+    color: var(--text-lightgray) !important;
     font-size: .9em !important;   
 }
 
@@ -231,12 +231,12 @@ hr{
 .bloger_name{
     margin: 0px;
     font-weight: 600;
-    color: #001758;
+    color: var(--text-darkblue);
 }
 .bloger_email{
     font-size: .7em;
     margin: 0px;
-    color: #9BA3CC;
+    color: var(--text-lightpurple);
 }
 .blog_data_div{
     text-align: center;
@@ -249,7 +249,7 @@ hr{
     font-size: .75em;
     padding-left: 5px !important;
     padding-right: 5px !important;
-    color: #5F677C !important;
+    color: var(--text-darkgray) !important;
     padding-bottom: 5px !important;
 }
 .read_more_div{

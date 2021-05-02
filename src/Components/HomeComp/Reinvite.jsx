@@ -1,6 +1,5 @@
 import React from 'react'
-import Button from '../Btn/Btn'
-import { useHistory } from 'react-router-dom'
+import {  Link } from 'react-router-dom'
 // assets 
 import girl from '../../Assets/girl.png'
 import polygon1 from '../../Assets/Polygon 3@2x.png'
@@ -10,7 +9,6 @@ import cros2 from '../../Assets/Group 25@3x.png'
 
 
 const Reinvite = () => {
-    const history = useHistory()
 
     return (
         <div className='reinvite_container'>
@@ -29,11 +27,9 @@ const Reinvite = () => {
                                 improve quality of life for people in cities and rural areas
                                 across Sub-Sahara Africa
                         </p>
-                            <Button
-                                value='Sign Up today'
-                                onClick={() => history.push('/signup')}
-                                className='Sign_up_today_btn'
-                            />
+                            <Link className='Sign_up_today_link' to='/signup' >
+                                Sign Up today
+                            </Link>
                             <img className='polygon2_img' src={polygon2} alt="img" />
                         </div>
                     </div>

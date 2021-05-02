@@ -11,7 +11,7 @@ const Blog = () => {
     
     useLayoutEffect(()=>{
         window.scrollTo(0,0)
-    })
+    },[])
     return (
         <div className='blog_container'>
             <div className="blog_main_div">

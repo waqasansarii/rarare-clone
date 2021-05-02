@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import SocialFeed from '../../Components/BlogComp/SocialFeed'
 import { useParams } from 'react-router-dom'
 import { blog_card_data } from './cardData'
@@ -14,7 +14,11 @@ import sIcon5 from '../../Assets/Icon awesome-behance-square.png'
 const SelectBlog = () => {
 
     const { id } = useParams()
-    const filter = blog_card_data.filter((val) => id === val.id)
+    let [blogData,setBlogData] = useState([])
+    useEffect(()=>{
+        const filter = blog_card_data.filter((val) => id === val.id)
+        setBlogData(filter)
+    },[])
 
     return (
         <div>
@@ -34,7 +38,7 @@ const SelectBlog = () => {
                         </div>
                     </div>
                     <div className='blog_card_socail_feed_div'>
-                        {filter.map((val, i) => (
+                        {blogData.map((val, i) => (
                             <div className='select_blog_more_main_div' key={i}>
                                 <div className="select_blog_user_info" >
                                     <div className='blog_user_card_detail_div'>

@@ -17,7 +17,7 @@ import "./Profile.css";
 const Profile = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
-  });
+  },[]);
 
   let [post, setPost] = useState("");
   let [list, setList] = useState(false);
