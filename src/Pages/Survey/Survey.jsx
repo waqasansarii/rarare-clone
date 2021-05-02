@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useLayoutEffect} from 'react'
 import Button from '../../Components/Btn/Btn'
 import { Link, useParams } from 'react-router-dom'
 import { surveyResultList } from '../../Data/SurveyResultLIstData'
@@ -15,7 +15,7 @@ const Survey = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
       },[]);
-      
+
     const { id } = useParams()
 
     return (

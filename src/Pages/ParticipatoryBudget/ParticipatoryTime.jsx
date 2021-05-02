@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useLayoutEffect } from "react";
 import { useHistory } from "react-router";
 
 // assets
@@ -10,7 +10,7 @@ const ParticipatoryTime = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   },[]);
-  
+
   const [show, setShow] = useState("1");
   const history = useHistory();
   return (

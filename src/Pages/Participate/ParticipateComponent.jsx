@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useLayoutEffect} from "react";
 import "./Participate.css";
 import Card from "@material-ui/core/Card";
 import Button from "@material-ui/core/Button";
@@ -7,7 +7,7 @@ function Participate() {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   },[]);
-  
+
   return (
     <div className="ParticipateRightBottom">
       <Card className="Participate_card">

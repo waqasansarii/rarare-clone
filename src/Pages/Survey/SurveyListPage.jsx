@@ -1,11 +1,11 @@
-import React from 'react'
+import React,{useLayoutEffect} from 'react'
 import {  useParams } from 'react-router-dom'
 import { surveyResultList } from '../../Data/SurveyResultLIstData'
 import Button from '../../Components/Btn/Btn'
 
 
 const SurveyListPage = () => {
-    
+
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
       },[]);

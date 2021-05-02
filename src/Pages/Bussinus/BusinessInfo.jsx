@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useLayoutEffect} from 'react'
 import { Link } from 'react-router-dom'
 import Button from '../../Components/Btn/Btn'
 // assets 
@@ -11,7 +11,7 @@ const BusinessInfo = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
       },[]);
-      
+
     return (
         <div className='bussines_container'>
             <div className='bussines_main_div'>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useLayoutEffect} from 'react'
 import { useHistory } from 'react-router';
 import "./PostSurvey.css";
 // assets
@@ -13,7 +13,7 @@ const PostSurveyReward = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
       },[]);
-      
+
     const history = useHistory();
 
     return (

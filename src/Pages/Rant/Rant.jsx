@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useLayoutEffect} from "react";
 import "./Rant.css";
 import Card from "@material-ui/core/Card";
 import FavoriteOutlinedIcon from "@material-ui/icons/FavoriteOutlined";

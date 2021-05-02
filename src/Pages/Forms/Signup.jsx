@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useLayoutEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Forms.css";
 // assets
@@ -26,7 +26,7 @@ const Signup = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   },[]);
-  
+
   const [show, setShow] = useState("1");
   const [pass, setPass] = useState(false);
 

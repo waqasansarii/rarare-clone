@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useLayoutEffect} from 'react'
 import ProfileCard from '../../Components/ProfileComp/ProfileCard'
 import NotificationSettingCard from '../../Components/ProfileComp/NotificationnCard'
 

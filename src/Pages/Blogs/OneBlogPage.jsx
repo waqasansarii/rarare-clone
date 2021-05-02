@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react'
+import React,{useEffect,useState,useLayoutEffect} from 'react'
 import SocialFeed from '../../Components/BlogComp/SocialFeed'
 import { useParams } from 'react-router-dom'
 import { blog_card_data } from './cardData'
@@ -16,7 +16,7 @@ const SelectBlog = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
       },[]);
-      
+
     const { id } = useParams()
     let [blogData,setBlogData] = useState([])
     useEffect(()=>{

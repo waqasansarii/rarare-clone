@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useLayoutEffect} from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Pagination } from 'swiper'
@@ -27,7 +27,7 @@ const Forget = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   },[]);
-  
+
   return (
     <React.Fragment>
       <div className="main_form">

@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useLayoutEffect} from 'react'
 import { useHistory } from 'react-router';
 // assets
 import back from '../../Assets/Icon-arrow-right.png'
@@ -9,7 +9,7 @@ const SurveyHealth = () => {
     useLayoutEffect(() => {
         window.scrollTo(0, 0);
       },[]);
-      
+
     const history = useHistory();
     return (
         <React.Fragment>

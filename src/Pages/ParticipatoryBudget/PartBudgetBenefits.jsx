@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useLayoutEffect} from "react";
 import { useHistory } from "react-router";
 import "./ParticipatoryBudget.css";
 
@@ -9,7 +9,7 @@ const PartBudgetBenefits = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
   },[]);
-  
+
   const history = useHistory();
 
   return (
