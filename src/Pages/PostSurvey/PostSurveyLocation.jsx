@@ -7,6 +7,9 @@ import pMap from "../../Assets/pmap.png";
 
 
 const PostSurveyLocation = (props) => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
     const history = useHistory();
 
     return (

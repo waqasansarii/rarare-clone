@@ -6,6 +6,9 @@ import undrawVoting from "../../Assets/undraw_voting.png";
 import pMap from "../../Assets/pmap.png";
 
 const PostConLoc = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
   const history = useHistory();
 
   return (

@@ -4,6 +4,10 @@ import SecuritySettingCard from '../../Components/ProfileComp/SecuritySetCard'
 
 
 const SecuritySetting = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
+      
     return (
         <div>
             <div className='acount_container'>

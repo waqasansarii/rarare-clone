@@ -5,6 +5,11 @@ import Button from '../../Components/Btn/Btn'
 
 
 const SurveyListPage = () => {
+    
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
+
     const {id}= useParams()
     return (
         <div>

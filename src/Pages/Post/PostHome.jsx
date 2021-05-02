@@ -14,7 +14,7 @@ const PostHome = () => {
 
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
-  });
+  },[]);
   return (
     <React.Fragment>
       <div className="post_home">

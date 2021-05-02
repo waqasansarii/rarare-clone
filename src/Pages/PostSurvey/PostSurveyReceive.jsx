@@ -5,6 +5,9 @@ import "./PostSurvey.css";
 import receiveTick from "../../Assets/receive_tick.png"
 
 const PostSurveyReceive = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
     const history = useHistory();
 
     return (

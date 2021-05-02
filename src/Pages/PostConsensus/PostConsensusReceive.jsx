@@ -9,6 +9,9 @@ import IconHandPaper from "../../Assets/Icon awesome-hand-paper.png";
 import location from "../../Assets/location.png";
 
 const PostConsensusReceive = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
   const history = useHistory();
 
   return (

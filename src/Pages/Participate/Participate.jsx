@@ -3,6 +3,10 @@ import "./Participate";
 import ParticipateComponent from "./ParticipateComponent";
 
 function Participate() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
+  
   return (
     <div id="Participate">
       <div className="Proposal_content_left ">

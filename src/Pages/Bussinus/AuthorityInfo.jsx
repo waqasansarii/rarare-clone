@@ -6,6 +6,10 @@ import businesslogo from '../../Assets/businesslogo.png'
 import './Bussines.css'
 
 const AuthorityInfo = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
+      
     return (
         <div className='bussines_container'>
             <div className='bussines_main_div'>

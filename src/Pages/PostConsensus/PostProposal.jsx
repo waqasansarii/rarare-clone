@@ -11,7 +11,7 @@ import greenDot from "../../Assets/greendot.png";
 const PostProposal = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
-  });
+  },[]);
 
   const history = useHistory();
   const [show, setShow] = useState("2");

@@ -8,6 +8,9 @@ import addIcon from "../../Assets/add_icon.png";
 
 
 const PostConOpt = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
     const history = useHistory();
     return (
         <React.Fragment>

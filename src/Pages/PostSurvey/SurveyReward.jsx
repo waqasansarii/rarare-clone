@@ -10,6 +10,10 @@ import mobHover from '../../Assets/Group 5381.png'
 
 
 const PostSurveyReward = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
+      
     const history = useHistory();
 
     return (

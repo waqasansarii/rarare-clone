@@ -12,6 +12,10 @@ import './Survey.css'
 
 const Survey = () => {
 
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
+      
     const { id } = useParams()
 
     return (

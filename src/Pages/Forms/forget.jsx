@@ -24,6 +24,10 @@ import 'swiper/swiper-bundle.css';
 SwiperCore.use([Pagination])
 
 const Forget = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
+  
   return (
     <React.Fragment>
       <div className="main_form">

@@ -8,6 +8,9 @@ import IconCalendar from "../../Assets/Icon awesome-calendar.png";
 import greenDot from "../../Assets/dot.png";
 
 const PostConsensusTime = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
   const [show, setShow] = useState("1");
   const history = useHistory();
   return (

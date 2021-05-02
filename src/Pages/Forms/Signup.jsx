@@ -22,6 +22,11 @@ import "swiper/swiper-bundle.css";
 
 SwiperCore.use([Pagination]);
 const Signup = () => {
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
+  
   const [show, setShow] = useState("1");
   const [pass, setPass] = useState(false);
 

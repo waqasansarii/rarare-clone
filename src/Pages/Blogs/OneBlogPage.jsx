@@ -13,6 +13,10 @@ import sIcon5 from '../../Assets/Icon awesome-behance-square.png'
 
 const SelectBlog = () => {
 
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
+      
     const { id } = useParams()
     let [blogData,setBlogData] = useState([])
     useEffect(()=>{

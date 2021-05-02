@@ -7,6 +7,10 @@ import './Bussines.css'
 
 
 const BusinessUploadImg = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
+      
 
     // upload img state and function 
 

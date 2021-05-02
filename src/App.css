@@ -55,17 +55,14 @@ body {
 
 .bg_red {
   background-color: var(--bg-red);
-
 }
 
 .bg_white {
   background-color: var(--bg-white);
-
 }
 
 .light_purple {
   background-color: var(--light-purple);
-
 }
 
 /* text colors */
@@ -76,37 +73,30 @@ body {
 
 .text_bluegreen {
   color: var(--text-bluegreen);
-
 }
 
 .text_lightblack {
   color: var(--text-lightblack);
-
 }
 
 .text_green {
   color: var(--text-green);
-
 }
 
 .text_darkgray {
   color: var(--text-darkgray);
-
 }
 
 .text_lightgray {
   color: var(--text-lightgray);
-
 }
 
 .text_lightpurple {
   color: var(--text-lightpurple);
-
 }
 
 .text_black {
   color: var(--text-black);
-
 }
 
 /* border color */

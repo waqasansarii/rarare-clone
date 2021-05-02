@@ -8,6 +8,10 @@ import './Bussines.css'
 
 
 const BusinessInfo = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
+      
     return (
         <div className='bussines_container'>
             <div className='bussines_main_div'>

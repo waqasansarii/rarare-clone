@@ -6,6 +6,10 @@ import undrawVoting from "../../Assets/undraw_voting.png";
 import pMap from "../../Assets/pmap.png";
 
 const ParticipatoryBudget = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
+  
   const history = useHistory();
 
   return (

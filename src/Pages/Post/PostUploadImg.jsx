@@ -6,6 +6,10 @@ import postIcon from "../../Assets/post_icon.png";
 import "../Bussinus/Bussines.css";
 
 const PostUploadImg = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
+  
   let [img, setImg] = useState([]);
 
   const handleUrl = (e) => {

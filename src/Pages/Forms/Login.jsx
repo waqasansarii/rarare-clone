@@ -28,6 +28,10 @@ SwiperCore.use([Pagination])
 
 
 const Login = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
+  
   let history = useHistory();
   const [show, setShow] = useState("1");
   const [pass, setPass] = useState(false);

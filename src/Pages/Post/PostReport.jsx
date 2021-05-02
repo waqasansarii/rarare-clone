@@ -7,6 +7,10 @@ import postIcon from "../../Assets/post_icon.png";
 import pMap from "../../Assets/pmap.png";
 
 const PostReport = (props) => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
+  
   const history = useHistory();
 
   return (

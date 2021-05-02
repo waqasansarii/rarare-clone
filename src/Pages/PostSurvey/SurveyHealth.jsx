@@ -6,6 +6,10 @@ import postIcon from "../../Assets/cn_logo.png";
 import "./PostSurvey.css";
 
 const SurveyHealth = () => {
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+      },[]);
+      
     const history = useHistory();
     return (
         <React.Fragment>
